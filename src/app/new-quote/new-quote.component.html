@@ -1,0 +1,7 @@
+<form #f="ngForm" (ngSubmit) ="onSubmit(f)">
+  <div class="form-group">
+    <label for="content">Content</label>
+    <input type="text" name="content" id="content" ngModel class="form-control">
+  </div>
+  <button type="submit" class="btn btn-primary">Create new quote</button>
+</form>
